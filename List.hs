@@ -5,7 +5,6 @@ firstElemList (x :_) = x
 main :: IO ()
 main = do
     print $ firstElemList [1, 2, 3, 4, 5]
-    print $ firstElemList ([] :: [Int])
     
  --Using Maybe--
 firstElemList :: [a] -> Maybe a
