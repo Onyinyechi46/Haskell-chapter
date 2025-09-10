@@ -1,6 +1,3 @@
-import Data.List (sortBy)
-import. Data. Maybe
-
 firstElemList :: Num a => [a] -> a
 firstElemList []     = 0
 firstElemList (x :_) = x
